@@ -5759,26 +5759,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\npalmieri\\.nuget\\packages\\": {}
+    "/Users/nicop/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sviluppo\\JWTAuthToken\\JWTAuthToken.DataAccessLayer\\JWTAuthToken.DataAccessLayer.csproj",
+      "projectUniqueName": "/Users/nicop/NetCoreProject/JWTAuthToken/JWTAuthToken.DataAccessLayer/JWTAuthToken.DataAccessLayer.csproj",
       "projectName": "JWTAuthToken.DataAccessLayer",
-      "projectPath": "C:\\sviluppo\\JWTAuthToken\\JWTAuthToken.DataAccessLayer\\JWTAuthToken.DataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\npalmieri\\.nuget\\packages\\",
-      "outputPath": "C:\\sviluppo\\JWTAuthToken\\JWTAuthToken.DataAccessLayer\\obj\\",
+      "projectPath": "/Users/nicop/NetCoreProject/JWTAuthToken/JWTAuthToken.DataAccessLayer/JWTAuthToken.DataAccessLayer.csproj",
+      "packagesPath": "/Users/nicop/.nuget/packages/",
+      "outputPath": "/Users/nicop/NetCoreProject/JWTAuthToken/JWTAuthToken.DataAccessLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\npalmieri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/nicop/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5833,7 +5831,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,15 @@
+﻿1. Da Visual Studio aprire Strumenti -> Gestione pacchetti NuGet -> Console di gestione pacchetti
+2. Selezionare il progetto giusto dal menù a tendina "Progetto predefinito"
+
+Per generare la prima volta i modelli 
+Scaffold-DbContext "Server=ESATST02B.ESECURITY.PRV;Database=JWTDB; Integrated Security=False; Trusted_Connection=False; User ID=MYSOC;Password=Pippo123" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EFModels -Context "JWTContext" -Project "JWTAuthToken.DataAccessLayer" -StartupProject "JWTAuthToken.WEBAPI" -NoPluralize -UseDatabaseNames
+
+Per aggiornare ogni volta
+Scaffold-DbContext "Name=ConnectionStrings:SqlServerDbCon" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EFModels -Context "JWTContext" -Project "JWTAuthToken.DataAccessLayer" -StartupProject "JWTAuthToken.WEBAPI" -NoPluralize -UseDatabaseNames -Force
+
+
+#########################################
+Scaffold-DbContext -Connection "Name=ConnectionStrings:SqlServerDbCon" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context "JWTTestContext" -ContextDir "JWTTestContext" -Project "JWTAuthToken.DataAccessLayer" -StartupProject "JWTAuthToken.WEBAPI"  -Force -NoPluralize -UseDatabaseNames -DataAnnotations
+
+##### help ####
+get-help scaffold-dbcontext -detailed
